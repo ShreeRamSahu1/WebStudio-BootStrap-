@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.main-header {
+    background-image: url(img/Hero-img.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #88b4c1;
+}
+
+.nav-link:active {
+    color: white;
+}
+
+.btn-get-started {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 8px 40px;
+    margin: 20px 0 0 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    border: 2px solid #88b4c1;
+}
+
+.btn-get-started:hover {
+    background-color: #88b4c1;
+}
+
+.number-counter-item {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.number-counter {
+    padding: 60px 0px;
+}
+
+.services-section-icon {
+    color: white;
+    background-color: #88b4c1;
+    padding: 0px 10px;
+    border-radius: 50%;
+}
+
+.services-section {
+    background-color: #f6f8fa;
+    padding: 60px 0px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.portfolio-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    padding:0px;
+}
+
+@media (max-width:766px){
+    .portofolio-links {
+        width:100%;
+    }
+}
+
+.portfolio-links-items {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.portfolio-links-items:hover {
+    color: #88b4c1;
+}
+
+.portfolio-section {
+    padding:60px 0px;
+}
+
+
+.team-section {
+    padding:60px 0px;
+}
+
+
+.team-member {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+.team-member .team-social-links {
+    position: absolute;
+    left: 0;
+    bottom:150px ;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+
+.team-member .team-social-links a {
+    background:#cbcbcc;
+    color:#000000;
+    margin:0 3px;
+    border-radius:4px;
+    width:36px;
+    height:36px;
+    transition: ease-in-out 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-member:hover .team-social-links {
+    opacity:1;
+    bottom:120px;
+}
+
+
+.pricing-section {
+    padding:60px 0px;
+}
+
+
+
+.na{
+    text-decoration:line-through;
+    color:#acaeaf;
+
+}
+
+.start-trail{
+    color:#88b4c1;
+    border:1px solid #88b4c1;
+}
+
+.start-trail:hover {
+    background-color:#88b4c1;
+    border:1px solid #88b4c1;
+}
+
+.pricing-items {
+    padding:40px;
+    background:#fafcfc;
+    border-radius: 15px;
+}
+
+.contact-us {
+    padding:60px 0px;
+    background-color:#f7f9fb;
+}
+
+.long-info {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding:30px;
+    margin-bottom:30px;
+}
+
+.contact-us-form {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+footer{
+    padding:60px 0px;
+    background-image: url(img/headway-5QgIuuBxKwM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.about-us{
+    padding:60px 0px;
+}
